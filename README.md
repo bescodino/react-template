@@ -1,3 +1,1 @@
-## 💻 Projeto
 
-Labsid React
