@@ -23,7 +23,10 @@ interface Post {
 
 class PostService {
   getAllPosts() {
-    return axios.get<Post[]>(API_URL);
+    return axios.get<Post[]>(API_URL,{
+      headers: {
+      'Access-Control-Allow-Headers': '*'
+    }});
   }
 
   getPostById(postId: number) {
