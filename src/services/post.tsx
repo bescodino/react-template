@@ -25,7 +25,8 @@ class PostService {
   getAllPosts() {
     return axios.get<Post[]>(API_URL,{
       headers: {
-      'Access-Control-Allow-Headers': '*'
+      'Access-Control-Allow-Headers': '*',
+      'Access-Control-Allow-Origin': '*',
     }});
   }
 
