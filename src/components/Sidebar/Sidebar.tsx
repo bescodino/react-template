@@ -20,7 +20,7 @@ export function Sidebar() {
       </div>
 
       <footer>
-        <Link to="profile"> Editar seu perfil</Link>  
+        <Link role="profile-link" to="profile"> Editar seu perfil</Link>  
         {/* <a href="profile">
           <PencilLine size={20} />
           Editar seu perfil
